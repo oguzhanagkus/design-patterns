@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Exoskeleton</OriginalElement>
+  <nodes>
+    <node x="1138.0" y="429.0">Exoskeleton.AutoRifle</node>
+    <node x="628.375" y="0.0">Exoskeleton.Component</node>
+    <node x="164.75" y="244.0">Exoskeleton.Suit</node>
+    <node x="270.0" y="429.0">Exoskeleton.TorSuit</node>
+    <node x="864.0" y="429.0">Exoskeleton.RocketLauncher</node>
+    <node x="754.1666666666666" y="219.0">Exoskeleton.Weapon</node>
+    <node x="554.8729166666667" y="555.0">Exoskeleton.Demo</node>
+    <node x="0.0" y="429.0">Exoskeleton.DecSuit</node>
+    <node x="664.0" y="429.0">Exoskeleton.Laser</node>
+    <node x="402.0" y="429.0">Exoskeleton.FlameThrower</node>
+    <node x="135.0" y="429.0">Exoskeleton.OraSuit</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Exoskeleton.AutoRifle" target="Exoskeleton.Weapon">
+      <point x="-69.33333333333326" y="-28.0" />
+      <point x="1172.6666666666667" y="389.0" />
+      <point x="926.4166666666666" y="389.0" />
+      <point x="66.25" y="65.0" />
+    </edge>
+    <edge source="Exoskeleton.TorSuit" target="Exoskeleton.Component">
+      <point x="28.0" y="-28.0" />
+      <point x="354.0" y="189.0" />
+      <point x="679.6057692307693" y="189.0" />
+      <point x="-22.769230769230717" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.Component">
+      <point x="77.875" y="-28.0" />
+      <point x="721.7479166666667" y="535.0" />
+      <point x="1356.5" y="535.0" />
+      <point x="1356.5" y="149.0" />
+      <point x="770.6826923076924" y="149.0" />
+      <point x="68.30769230769238" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.Laser" target="Exoskeleton.Weapon">
+      <point x="60.0" y="-28.0" />
+      <point x="814.0" y="409.0" />
+      <point x="846.9166666666666" y="409.0" />
+      <point x="-13.25" y="65.0" />
+    </edge>
+    <edge source="Exoskeleton.DecSuit" target="Exoskeleton.Suit">
+      <point x="28.75" y="-28.0" />
+      <point x="86.25" y="409.0" />
+      <point x="186.75" y="409.0" />
+      <point x="-44.0" y="40.0" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.FlameThrower">
+      <point x="-11.125" y="-28.0" />
+      <point x="632.7479166666667" y="505.0" />
+      <point x="523.0" y="505.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.OraSuit">
+      <point x="-55.625" y="-28.0" />
+      <point x="588.2479166666667" y="525.0" />
+      <point x="192.5" y="525.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Exoskeleton.FlameThrower" target="Exoskeleton.Component">
+      <point x="-80.66666666666669" y="-28.0" />
+      <point x="442.3333333333333" y="409.0" />
+      <point x="464.7173076923077" y="409.0" />
+      <point x="464.7173076923077" y="199.0" />
+      <point x="690.9903846153846" y="199.0" />
+      <point x="-11.384615384615358" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.RocketLauncher" target="Exoskeleton.Component">
+      <point x="84.66666666666674" y="-28.0" />
+      <point x="1075.6666666666667" y="409.0" />
+      <point x="1042.625" y="409.0" />
+      <point x="1042.625" y="169.0" />
+      <point x="747.9134615384615" y="169.0" />
+      <point x="45.53846153846155" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.FlameThrower" target="Exoskeleton.Weapon">
+      <point x="80.66666666666663" y="-28.0" />
+      <point x="603.6666666666666" y="389.0" />
+      <point x="793.9166666666666" y="389.0" />
+      <point x="-66.25" y="65.0" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.RocketLauncher">
+      <point x="33.375" y="-28.0" />
+      <point x="677.2479166666667" y="515.0" />
+      <point x="991.0" y="515.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Exoskeleton.Laser" target="Exoskeleton.Component">
+      <point x="-60.0" y="-28.0" />
+      <point x="694.0" y="369.0" />
+      <point x="702.375" y="369.0" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.TorSuit">
+      <point x="-33.375" y="-28.0" />
+      <point x="610.4979166666667" y="515.0" />
+      <point x="326.0" y="515.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Exoskeleton.Weapon" target="Exoskeleton.Component">
+      <point x="-70.66666666666663" y="-65.0" />
+      <point x="789.5" y="199.0" />
+      <point x="713.7596153846154" y="199.0" />
+      <point x="11.384615384615358" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.OraSuit" target="Exoskeleton.Component">
+      <point x="-28.75" y="-28.0" />
+      <point x="163.75" y="399.0" />
+      <point x="154.25" y="399.0" />
+      <point x="154.25" y="159.0" />
+      <point x="645.4519230769231" y="159.0" />
+      <point x="-56.923076923076906" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.AutoRifle" target="Exoskeleton.Component">
+      <point x="69.33333333333326" y="-28.0" />
+      <point x="1311.3333333333333" y="409.0" />
+      <point x="1260.9889423076925" y="409.0" />
+      <point x="1260.9889423076925" y="159.0" />
+      <point x="759.2980769230769" y="159.0" />
+      <point x="56.923076923076906" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.Suit" target="Exoskeleton.Component">
+      <point x="-33.0" y="-40.0" />
+      <point x="197.75" y="169.0" />
+      <point x="656.8365384615385" y="169.0" />
+      <point x="-45.53846153846155" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.OraSuit" target="Exoskeleton.Suit">
+      <point x="28.75" y="-28.0" />
+      <point x="221.25" y="409.0" />
+      <point x="230.75" y="409.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="Exoskeleton.RocketLauncher" target="Exoskeleton.Weapon">
+      <point x="-84.66666666666674" y="-28.0" />
+      <point x="906.3333333333333" y="409.0" />
+      <point x="873.4166666666666" y="409.0" />
+      <point x="13.25" y="65.0" />
+    </edge>
+    <edge source="Exoskeleton.TorSuit" target="Exoskeleton.Suit">
+      <point x="-28.0" y="-28.0" />
+      <point x="298.0" y="409.0" />
+      <point x="274.75" y="409.0" />
+      <point x="44.0" y="40.0" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.Laser">
+      <point x="11.125" y="-28.0" />
+      <point x="654.9979166666667" y="505.0" />
+      <point x="754.0" y="505.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.AutoRifle">
+      <point x="55.625" y="-28.0" />
+      <point x="699.4979166666667" y="525.0" />
+      <point x="1242.0" y="525.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Exoskeleton.DecSuit" target="Exoskeleton.Component">
+      <point x="-28.75" y="-28.0" />
+      <point x="28.75" y="149.0" />
+      <point x="634.0673076923077" y="149.0" />
+      <point x="-68.30769230769226" y="64.5" />
+    </edge>
+    <edge source="Exoskeleton.Demo" target="Exoskeleton.DecSuit">
+      <point x="-77.875" y="-28.0" />
+      <point x="565.9979166666667" y="535.0" />
+      <point x="57.5" y="535.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="678.5" y="305.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
