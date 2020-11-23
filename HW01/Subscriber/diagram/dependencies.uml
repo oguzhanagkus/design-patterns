@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Subscriber</OriginalElement>
+  <nodes>
+    <node x="359.11697530864205" y="642.0">Subscriber.Site</node>
+    <node x="200.66666666666666" y="213.0">Subscriber.Subscriber</node>
+    <node x="0.0" y="943.0">Subscriber.SiteSubscriber</node>
+    <node x="101.45030864197543" y="0.0">Subscriber.ContentType</node>
+    <node x="458.78919753086427" y="1291.0">Subscriber.Demo</node>
+    <node x="37.116975308642054" y="439.0">Subscriber.Subscribable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Subscriber.SiteSubscriber" target="Subscriber.Subscribable">
+      <point x="26.666666666666657" y="-149.0" />
+      <point x="186.66666666666666" y="923.0" />
+      <point x="155.73734567901252" y="923.0" />
+      <point x="155.73734567901252" y="617.0" />
+      <point x="187.61697530864205" y="617.0" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="Subscriber.Subscriber" target="Subscriber.Subscribable">
+      <point x="-64.0" y="88.0" />
+      <point x="296.66666666666663" y="419.0" />
+      <point x="287.95030864197537" y="419.0" />
+      <point x="100.33333333333331" y="-76.5" />
+    </edge>
+    <edge source="Subscriber.Demo" target="Subscriber.Site">
+      <point x="35.60000000000002" y="-28.0" />
+      <point x="583.3891975308643" y="1271.0" />
+      <point x="561.9537037037037" y="1271.0" />
+      <point x="561.9537037037037" y="923.0" />
+      <point x="609.9503086419754" y="923.0" />
+      <point x="100.33333333333331" y="125.5" />
+    </edge>
+    <edge source="Subscriber.Demo" target="Subscriber.SiteSubscriber">
+      <point x="-71.19999999999999" y="-28.0" />
+      <point x="476.5891975308642" y="1271.0" />
+      <point x="80.0" y="1271.0" />
+      <point x="-80.0" y="149.0" />
+    </edge>
+    <edge source="Subscriber.SiteSubscriber" target="Subscriber.Site">
+      <point x="133.33333333333337" y="-149.0" />
+      <point x="293.33333333333337" y="923.0" />
+      <point x="409.28364197530874" y="923.0" />
+      <point x="-100.33333333333331" y="125.5" />
+    </edge>
+    <edge source="Subscriber.SiteSubscriber" target="Subscriber.Subscriber">
+      <point x="80.0" y="-149.0" />
+      <point x="240.0" y="913.0" />
+      <point x="348.61697530864205" y="913.0" />
+      <point x="348.61697530864205" y="419.0" />
+      <point x="360.66666666666663" y="419.0" />
+      <point x="0.0" y="88.0" />
+    </edge>
+    <edge source="Subscriber.Subscribable" target="Subscriber.Subscriber">
+      <point x="0.0" y="-76.5" />
+      <point x="187.61697530864205" y="419.0" />
+      <point x="232.66666666666666" y="419.0" />
+      <point x="-128.0" y="88.0" />
+    </edge>
+    <edge source="Subscriber.Site" target="Subscriber.Subscriber">
+      <point x="-37.62499999999994" y="-125.5" />
+      <point x="471.9919753086421" y="617.0" />
+      <point x="500.7870370370372" y="617.0" />
+      <point x="500.7870370370372" y="419.0" />
+      <point x="424.66666666666663" y="419.0" />
+      <point x="64.0" y="88.0" />
+    </edge>
+    <edge source="Subscriber.Site" target="Subscriber.ContentType">
+      <point x="112.87500000000006" y="-125.5" />
+      <point x="622.4919753086422" y="617.0" />
+      <point x="573.9689814814816" y="617.0" />
+      <point x="573.9689814814816" y="183.0" />
+      <point x="282.9503086419754" y="183.0" />
+      <point x="60.5" y="76.5" />
+    </edge>
+    <edge source="Subscriber.SiteSubscriber" target="Subscriber.ContentType">
+      <point x="-80.0" y="-149.0" />
+      <point x="80.0" y="913.0" />
+      <point x="26.616975308642054" y="913.0" />
+      <point x="26.616975308642054" y="183.0" />
+      <point x="161.95030864197543" y="183.0" />
+      <point x="-60.5" y="76.5" />
+    </edge>
+    <edge source="Subscriber.Subscribable" target="Subscriber.ContentType">
+      <point x="-100.33333333333331" y="-76.5" />
+      <point x="87.28364197530874" y="419.0" />
+      <point x="91.0" y="419.0" />
+      <point x="91.0" y="193.0" />
+      <point x="202.28364197530874" y="193.0" />
+      <point x="-20.166666666666686" y="76.5" />
+    </edge>
+    <edge source="Subscriber.Site" target="Subscriber.Subscribable">
+      <point x="-112.87499999999994" y="-125.5" />
+      <point x="396.7419753086421" y="617.0" />
+      <point x="287.95030864197537" y="617.0" />
+      <point x="100.33333333333331" y="76.5" />
+    </edge>
+    <edge source="Subscriber.Demo" target="Subscriber.ContentType">
+      <point x="71.20000000000007" y="-28.0" />
+      <point x="618.9891975308643" y="1271.0" />
+      <point x="670.616975308642" y="1271.0" />
+      <point x="670.616975308642" y="173.0" />
+      <point x="323.28364197530874" y="173.0" />
+      <point x="100.83333333333331" y="76.5" />
+    </edge>
+    <edge source="Subscriber.Subscriber" target="Subscriber.ContentType">
+      <point x="0.0" y="-88.0" />
+      <point x="360.66666666666663" y="193.0" />
+      <point x="242.61697530864208" y="193.0" />
+      <point x="20.166666666666657" y="76.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.653986832479883" x="335.5" y="673.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
