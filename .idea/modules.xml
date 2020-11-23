@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HW01/Exoskeleton/Exoskeleton.iml" filepath="$PROJECT_DIR$/HW01/Exoskeleton/Exoskeleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW01/LinearEquationSolver/LinearEquationSolver.iml" filepath="$PROJECT_DIR$/HW01/LinearEquationSolver/LinearEquationSolver.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW01/Subscriber/Subscriber.iml" filepath="$PROJECT_DIR$/HW01/Subscriber/Subscriber.iml" />
     </modules>
