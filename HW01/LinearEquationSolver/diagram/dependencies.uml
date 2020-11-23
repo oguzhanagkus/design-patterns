@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>LinearEquationSolver</OriginalElement>
+  <nodes>
+    <node x="352.0000000000001" y="359.5">LinearEquationSolver.SolvingMethod</node>
+    <node x="530.184523809524" y="0.0">LinearEquationSolver.LinearEquationSystem</node>
+    <node x="498.0000000000001" y="598.5">LinearEquationSolver.GaussianElimination</node>
+    <node x="0.0" y="562.0">LinearEquationSolver.LinearEquationSolver</node>
+    <node x="937.1909340659341" y="263.0">LinearEquationSolver.MatrixOperations</node>
+    <node x="801.0000000000001" y="598.5">LinearEquationSolver.MatrixInversion</node>
+    <node x="605.4409340659341" y="776.0">LinearEquationSolver.Demo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="LinearEquationSolver.MatrixInversion" target="LinearEquationSolver.SolvingMethod">
+      <point x="-94.33333333333326" y="-40.5" />
+      <point x="848.1666666666669" y="532.0" />
+      <point x="599.6250000000001" y="532.0" />
+      <point x="106.125" y="28.0" />
+    </edge>
+    <edge source="LinearEquationSolver.Demo" target="LinearEquationSolver.MatrixInversion">
+      <point x="25.428571428571445" y="-28.0" />
+      <point x="719.8695054945056" y="736.0" />
+      <point x="871.7500000000001" y="736.0" />
+      <point x="-70.75" y="40.5" />
+    </edge>
+    <edge source="LinearEquationSolver.MatrixInversion" target="LinearEquationSolver.LinearEquationSystem">
+      <point x="0.0" y="-40.5" />
+      <point x="942.5000000000001" y="542.0" />
+      <point x="926.6909340659341" y="542.0" />
+      <point x="926.6909340659341" y="233.0" />
+      <point x="692.934523809524" y="233.0" />
+      <point x="54.25" y="101.5" />
+    </edge>
+    <edge source="LinearEquationSolver.LinearEquationSolver" target="LinearEquationSolver.SolvingMethod">
+      <point x="59.75" y="-77.0" />
+      <point x="298.75" y="542.0" />
+      <point x="387.3750000000001" y="542.0" />
+      <point x="-106.125" y="28.0" />
+    </edge>
+    <edge source="LinearEquationSolver.LinearEquationSolver" target="LinearEquationSolver.LinearEquationSystem">
+      <point x="-59.75" y="-77.0" />
+      <point x="179.25" y="542.0" />
+      <point x="200.25343406593402" y="542.0" />
+      <point x="200.25343406593402" y="233.0" />
+      <point x="584.434523809524" y="233.0" />
+      <point x="-54.25" y="101.5" />
+    </edge>
+    <edge source="LinearEquationSolver.MatrixInversion" target="LinearEquationSolver.MatrixOperations">
+      <point x="94.33333333333326" y="-40.5" />
+      <point x="1036.8333333333335" y="542.0" />
+      <point x="1131.690934065934" y="542.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="LinearEquationSolver.Demo" target="LinearEquationSolver.LinearEquationSolver">
+      <point x="-76.28571428571422" y="-28.0" />
+      <point x="618.1552197802199" y="756.0" />
+      <point x="119.5" y="756.0" />
+      <point x="-119.5" y="77.0" />
+    </edge>
+    <edge source="LinearEquationSolver.Demo" target="LinearEquationSolver.LinearEquationSystem">
+      <point x="76.28571428571422" y="-28.0" />
+      <point x="770.7266483516484" y="756.0" />
+      <point x="1336.690934065934" y="756.0" />
+      <point x="1336.690934065934" y="223.0" />
+      <point x="729.1011904761906" y="223.0" />
+      <point x="90.41666666666669" y="101.5" />
+    </edge>
+    <edge source="LinearEquationSolver.GaussianElimination" target="LinearEquationSolver.LinearEquationSystem">
+      <point x="70.75" y="-40.5" />
+      <point x="710.2500000000001" y="542.0" />
+      <point x="697.8125000000001" y="542.0" />
+      <point x="697.8125000000001" y="243.0" />
+      <point x="656.7678571428572" y="243.0" />
+      <point x="18.083333333333314" y="101.5" />
+    </edge>
+    <edge source="LinearEquationSolver.SolvingMethod" target="LinearEquationSolver.LinearEquationSystem">
+      <point x="0.0" y="-28.0" />
+      <point x="493.5000000000001" y="243.0" />
+      <point x="620.6011904761906" y="243.0" />
+      <point x="-18.083333333333314" y="101.5" />
+    </edge>
+    <edge source="LinearEquationSolver.GaussianElimination" target="LinearEquationSolver.SolvingMethod">
+      <point x="-70.75" y="-40.5" />
+      <point x="568.7500000000001" y="542.0" />
+      <point x="528.8750000000001" y="542.0" />
+      <point x="35.375" y="28.0" />
+    </edge>
+    <edge source="LinearEquationSolver.Demo" target="LinearEquationSolver.GaussianElimination">
+      <point x="-25.428571428571445" y="-28.0" />
+      <point x="669.0123626373627" y="736.0" />
+      <point x="568.7500000000001" y="736.0" />
+      <point x="-70.75" y="40.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="605.5" y="419.0" />
+  <SelectedNodes>
+    <node>LinearEquationSolver.Demo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
