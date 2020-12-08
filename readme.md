@@ -7,6 +7,11 @@ Whole repository is an Intellij Idea project. Each course project is a module in
 Subjects of projects:
 
 * HW01
-    * Strategy Pattern
-    * Observer Pattern
-    * Decorator Pattern
+    * LinearEquationSolver -> Strategy Pattern
+    * Subscriber -> Observer Pattern
+    * Exoskeleton -> Decorator Pattern
+* Midterm
+  * SmartphoneFactory -> Abstract Factory Pattern
+  * Adapter -> Adapter Pattern
+  * Transaction -> Command Pattern
+  * Transformer -> Template Pattern
