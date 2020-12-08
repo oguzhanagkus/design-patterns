@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Adapter</OriginalElement>
+  <nodes>
+    <node x="180.33333333333334" y="0.0">Adapter.TurboPayment</node>
+    <node x="359.0" y="106.0">Adapter.TurboPaymentAdapter</node>
+    <node x="539.3333333333334" y="0.0">Adapter.ModernPayment</node>
+    <node x="0.0" y="131.0">Adapter.ExpressPayment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Adapter.TurboPaymentAdapter" target="Adapter.TurboPayment">
+      <point x="-106.66666666666669" y="-53.0" />
+      <point x="412.3333333333333" y="81.0" />
+      <point x="349.83333333333337" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Adapter.TurboPaymentAdapter" target="Adapter.ModernPayment">
+      <point x="106.66666666666669" y="-53.0" />
+      <point x="625.6666666666667" y="81.0" />
+      <point x="681.8333333333334" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Adapter.ExpressPayment" target="Adapter.TurboPayment">
+      <point x="0.0" y="-28.0" />
+      <point x="169.5" y="81.0" />
+      <point x="236.83333333333334" y="81.0" />
+      <point x="-113.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="142.5" y="132.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
