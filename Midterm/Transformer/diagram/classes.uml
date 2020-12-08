@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Transformer</OriginalElement>
+  <nodes>
+    <node x="452.13541666666663" y="512.5">Transformer.DiscreteCosineTransform</node>
+    <node x="590.9930555555555" y="188.0">Transformer.RealNumber</node>
+    <node x="86.13541666666663" y="476.0">Transformer.DiscreteFourierTransform</node>
+    <node x="0.0" y="164.0">Transformer.ComplexNumber</node>
+    <node x="388.5520833333333" y="0.0">Transformer.Number</node>
+    <node x="315.77430555555554" y="80.0">Transformer.Transform</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Transformer.DiscreteCosineTransform" target="Transformer.Transform">
+      <point x="0.0" y="-40.5" />
+      <point x="591.6354166666666" y="451.0" />
+      <point x="526.6493055555555" y="451.0" />
+      <point x="90.375" y="173.0" />
+    </edge>
+    <edge source="Transformer.ComplexNumber" target="Transformer.Number">
+      <point x="0.0" y="-89.0" />
+      <point x="140.5" y="50.0" />
+      <point x="400.5520833333333" y="50.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="Transformer.DiscreteFourierTransform" target="Transformer.ComplexNumber">
+      <point x="-115.33333333333331" y="-77.0" />
+      <point x="143.80208333333331" y="451.0" />
+      <point x="140.5" y="451.0" />
+      <point x="0.0" y="89.0" />
+    </edge>
+    <edge source="Transformer.Transform" target="Transformer.Number">
+      <point x="-60.25" y="-173.0" />
+      <point x="376.02430555555554" y="60.0" />
+      <point x="424.5520833333333" y="60.0" />
+      <point x="-12.0" y="15.0" />
+    </edge>
+    <edge source="Transformer.DiscreteCosineTransform" target="Transformer.RealNumber">
+      <point x="93.0" y="-40.5" />
+      <point x="684.6354166666666" y="451.0" />
+      <point x="688.4930555555555" y="451.0" />
+      <point x="0.0" y="65.0" />
+    </edge>
+    <edge source="Transformer.RealNumber" target="Transformer.Number">
+      <point x="0.0" y="-65.0" />
+      <point x="688.4930555555555" y="50.0" />
+      <point x="472.5520833333333" y="50.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="Transformer.DiscreteFourierTransform" target="Transformer.Transform">
+      <point x="0.0" y="-77.0" />
+      <point x="259.13541666666663" y="451.0" />
+      <point x="345.89930555555554" y="451.0" />
+      <point x="-90.375" y="173.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="234.18181818181813" y="244.36363636363632" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
