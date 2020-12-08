@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Midterm/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Midterm/Adapter/Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW01/Exoskeleton/Exoskeleton.iml" filepath="$PROJECT_DIR$/HW01/Exoskeleton/Exoskeleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW01/LinearEquationSolver/LinearEquationSolver.iml" filepath="$PROJECT_DIR$/HW01/LinearEquationSolver/LinearEquationSolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Midterm/SmartphoneFactory/SmartphoneFactory.iml" filepath="$PROJECT_DIR$/Midterm/SmartphoneFactory/SmartphoneFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW01/Subscriber/Subscriber.iml" filepath="$PROJECT_DIR$/HW01/Subscriber/Subscriber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Midterm/Transaction/Transaction.iml" filepath="$PROJECT_DIR$/Midterm/Transaction/Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Midterm/Transformer/Transformer.iml" filepath="$PROJECT_DIR$/Midterm/Transformer/Transformer.iml" />
     </modules>
   </component>
 </project>
