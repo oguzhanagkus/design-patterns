@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Transaction</OriginalElement>
+  <nodes>
+    <node x="879.0000000000001" y="245.5">Transaction.AlterOperation</node>
+    <node x="627.8333333333335" y="0.0">Transaction.Operation</node>
+    <node x="577.6666666666667" y="437.0">Transaction.MoneyTransfer</node>
+    <node x="651.0000000000001" y="270.0">Transaction.Transaction</node>
+    <node x="308.0000000000001" y="209.0">Transaction.UpdateOperation</node>
+    <node x="0.0" y="221.0">Transaction.SelectOperation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Transaction.SelectOperation" target="Transaction.Operation">
+      <point x="72.0" y="-77.0" />
+      <point x="216.0" y="159.0" />
+      <point x="655.5833333333335" y="159.0" />
+      <point x="-64.75" y="64.5" />
+    </edge>
+    <edge source="Transaction.UpdateOperation" target="Transaction.Operation">
+      <point x="80.75" y="-89.0" />
+      <point x="550.2500000000001" y="179.0" />
+      <point x="692.5833333333335" y="179.0" />
+      <point x="-27.75" y="64.5" />
+    </edge>
+    <edge source="Transaction.MoneyTransfer" target="Transaction.SelectOperation">
+      <point x="-147.91666666666657" y="-65.0" />
+      <point x="607.2500000000001" y="417.0" />
+      <point x="144.0" y="417.0" />
+      <point x="0.0" y="77.0" />
+    </edge>
+    <edge source="Transaction.Transaction" target="Transaction.Operation">
+      <point x="69.33333333333331" y="-28.0" />
+      <point x="824.3333333333334" y="179.0" />
+      <point x="748.0833333333335" y="179.0" />
+      <point x="27.75" y="64.5" />
+    </edge>
+    <edge source="Transaction.MoneyTransfer" target="Transaction.Transaction">
+      <point x="-29.583333333333314" y="-65.0" />
+      <point x="725.5833333333334" y="417.0" />
+      <point x="703.0000000000001" y="417.0" />
+      <point x="-52.0" y="28.0" />
+    </edge>
+    <edge source="Transaction.MoneyTransfer" target="Transaction.UpdateOperation">
+      <point x="-88.74999999999994" y="-65.0" />
+      <point x="666.4166666666667" y="407.0" />
+      <point x="469.5000000000001" y="407.0" />
+      <point x="0.0" y="89.0" />
+    </edge>
+    <edge source="Transaction.AlterOperation" target="Transaction.Operation">
+      <point x="0.0" y="-52.5" />
+      <point x="962.5000000000001" y="169.0" />
+      <point x="766.5833333333335" y="169.0" />
+      <point x="46.25" y="64.5" />
+    </edge>
+    <edge source="Transaction.MoneyTransfer" target="Transaction.Operation">
+      <point x="147.91666666666663" y="-65.0" />
+      <point x="903.0833333333334" y="417.0" />
+      <point x="1067.5" y="417.0" />
+      <point x="1067.5" y="149.0" />
+      <point x="803.5833333333335" y="149.0" />
+      <point x="83.25" y="64.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="364.0" y="419.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
