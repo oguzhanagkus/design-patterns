@@ -1,0 +1,28 @@
+Question:   What happens if someone tries to clone a Singleton object using the clone() method inherited from Object?
+            Does it lead to the creation of a second distinct Singleton object? Justify your answer.
+
+Answer:     When someone tries to clone a Singleton object, s/he will get "the method clone() from the type Object is not visible." error.
+            Because clone() method in Object class is protected. So s/he have to override clone() method in Singleton class.
+            If overriding is already done by doing:
+                protected Object clone() throws CloneNotSupportedException {
+                    return super.clone();
+                },
+            it will throw CloneNotSupportedException.
+
+Question:   Cloning Singletons should not be allowed. How can you prevent the cloning of a Singleton object?
+
+Answer:     Of course, cloning should not be allowed. It easy to avoid by overriding clone() method like below:
+                protected Object clone() throws CloneNotSupportedException {
+                  return uniqueInstance;
+                }
+
+Question:   Let’s assume the class Singleton is a subclass of class Parent, that fully implements the Cloneable interface.
+            How would you answer questions 1 and 2 in this case?
+
+Answer 1:   Parent's clone() method will work and it will create a new Singleton object.
+            This should not be allowed for Singleton class.
+
+Answer 2:   The clone() method must be override. It should return a reference to the Singleton object.
+                protected Object clone() throws CloneNotSupportedException {
+                    return uniqueInstance;
+                }
